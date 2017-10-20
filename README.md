@@ -12,3 +12,5 @@ This is a simple calculator app. Buttons are not included, because it is a web a
 
 2. Add additional math functionality. i.e. log, exponents, etc. Include these calculations into the array and a function to handle them accordingly. Very much just an expansion of previous work with Math.log() or Math.pow() etc.
 
+[Deployed on Heroku](https://simple-calculator-mike.herokuapp.com/)
+
