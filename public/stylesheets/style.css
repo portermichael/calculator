@@ -6,3 +6,37 @@ body {
 a {
   color: #00B7FF;
 }
+
+.calculator {
+  width: 33%;
+  height: auto;
+  background-color: blue;
+  padding: 0.5em;
+}
+
+.showValue {
+  height: 1.5em;
+  background-color: pink;
+  padding: 0.5em;
+  margin: 1.5% 0;
+  text-align: right;
+}
+
+.numberInput {
+  width: 72%;
+  height: 1.5em;
+  margin: 1.5%;
+  text-align: right;
+}
+
+.selectNumber {
+  width: 20%;
+  height: 2em;
+  margin: 1.5%;
+}
+
+.operation {
+  width: 23%;
+  height: 2em;
+  margin: 1%;
+}

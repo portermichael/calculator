@@ -4,3 +4,11 @@ This is a simple calculator app. Buttons are not included, because it is a web a
 
 
 #### [Wireframe](https://docs.google.com/presentation/d/1vo-ZhTa0z3f3Yxmeplkq4KZJyGUWP2hlFa_B7mDFmGM/edit?usp=sharing)
+
+
+#### Future Steps
+
+1. Add accurate division to a fixed decimal point. Currently any non whole numbers are rounded down.
+
+2. Add additional math functionality. i.e. log, exponents, etc. Include these calculations into the array and a function to handle them accordingly. Very much just an expansion of previous work with Math.log() or Math.pow() etc.
+

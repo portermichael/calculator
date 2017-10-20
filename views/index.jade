@@ -3,3 +3,24 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+
+  div(class='calculator')
+    div(class='showLastEquation showValue')
+    div(class='showLastSolution showValue')
+    div(class='showCurrentEquation showValue')
+    div(class='inputsForCalc')
+      input(type='number', placeholder='Your Number Here', class='numberInput')
+      button(class='selectNumber' onclick='handleNumberInput()')
+        |Include
+    button(class='add operation', onclick='addValueToCalculator("+")')
+      | +
+    button(class='subtract operation', onclick='addValueToCalculator("-")')
+      | -
+    button(class='clear operation', onclick='clearCurrentValues()')
+      | clear
+    button(class='equals operation', onclick='evaluateArray()')
+      | =
+    button(class='multiply operation', onclick='addValueToCalculator("*")')
+      | x
+    button(class='divide operation', onclick='addValueToCalculator("/")')
+      | /
